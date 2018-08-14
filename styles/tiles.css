@@ -1,0 +1,148 @@
+<style type="text/css">
+    /* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
+}
+  /* flip the pane when hovered */
+  .flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+.flip-container, .front, .back {
+  height: 480px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.flip-container {
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: inline-block;
+}
+.front, .back {
+  width: 100%;  
+}
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+  width: 100%!important;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
+.tiles {
+  margin-bottom: 15px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  line-height: 2;
+  font-weight: 700; 
+}
+@media only screen and (max-width: 802px) {
+  .tiles {
+    display: none;
+  }
+  .mobile-front, .mobile-back {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-tile {
+    margin-left: 10%;
+    width: 80%;
+  }
+  }
+  @media only screen and (min-width: 1120px) {
+.tiles {
+  margin-left: 3%;
+  }
+}
+
+   @media only screen and (max-width: 1120px) and (min-width: 720px) {
+    .flip-container {
+    width: 32.8%;
+    margin:0px;
+  }
+  .tiles {
+    margin-left: 1%;
+  }
+  }
+
+
+  /*For mobile */
+.mobile-flip-container {
+  perspective: 1000px;
+}
+
+.mobile-flip-container, .mobile-front, .mobile-back {
+  height: 480px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* flip speed goes here */
+.mobile-flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+  width: 100%!important;
+}
+
+/* hide back of pane during swap */
+.mobile-front, .mobile-back {
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.mobile-front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.mobile-back {
+  transform: rotateY(180deg);
+}
+
+@media only screen and (min-width: 802px) {
+  .mobile-tile {
+    display: none;
+  }
+  }
+@media only screen and (max-width: 480px) {
+   .mobile-tile {
+    margin-left: 3%;
+    width: 94%;
+  }
+  }
+  .mobile-tile {
+    margin-bottom: 15px;
+  }
+  </style>

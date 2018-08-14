@@ -1,0 +1,27 @@
+<style type="text/css">
+  
+    
+    a:link {
+      background-color: white;
+    }
+    
+    .heading {
+      text-align: center;
+      margin-bottom: 15px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 35px;
+      line-height: 2;
+      font-weight: 700; 
+    }
+    iframe {
+    	margin-left: 5%;
+    }
+    .link {
+    	text-align: center;
+    }
+    .active {
+    	background-color: #fb632e;
+    	color: white;
+    }
+  </style>
+

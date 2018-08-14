@@ -4,7 +4,7 @@
 <title>Robovanza- Contact</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Zeta Template Project - Contact">
+<meta name="description" content="Robovanza - Contact">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
@@ -15,6 +15,8 @@
 <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBisf-jOkHF3EObkyyQh4NukvZrEmaJCt0&callback=myMap"></script>
+    --> 
 </head>
 
 <body>
@@ -89,7 +91,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="home_content">
-						<h1>Contact</h1>
+						<h1>Contact Us</h1>
 						<span>get in touch</span>
 					</div>
 				</div>
@@ -121,7 +123,7 @@
 						
 						<!-- Contact Us Form -->
 						<div class="contact_form_container">
-							<form id="reply_form" action="post">
+							<form id="reply_form" action="MAILTO:robovanza2018@gmail.com" method="post">
 								<div>
 									<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Name" required="required" data-error="Name is required.">
 									<input id="contact_form_email" class="input_field contact_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
@@ -129,7 +131,7 @@
 									<textarea id="contact_form_message" class="text_field contact_form_message" name="message"  placeholder="Message" rows="4" required data-error="Please, write us a message."></textarea>
 								</div>
 								<div>
-									<button id="contact_form_submit" type="submit" class="contact_submit_btn trans_300" value="Submit">
+									<button id="contact_form_submit" type="submit" class="contact_submit_btn trans_300" value="mailto:robovanza2018@gmail.com">
 										send<img src="images/arrow_right.svg" alt="">
 									</button>
 								</div>
@@ -149,11 +151,15 @@
 							<div class="sidebar_contact_info">
 								<div class="sidebar_title">contact info</div>
 								<ul>
-									<li>Rosia Road , No234/56
+									<li>Robovanza
 									<br>
-									Gibraltar , UK</li>
-									<li>contact@cocoontemplate.com</li>
-									<li>+5463 834 53 2245</li>
+									Chaitanya Bharathi Institutue of Techonology</li>
+									<li>Gandipet,Hyderabad</li>
+								    <li>robovanza2018@gmail.com</li>
+								    <li>Ram Ananya, 8297460482
+								    </li>
+									<li>Manika, 9989544192</li>
+									
 								</ul>
 							</div>
 						</div>
@@ -165,20 +171,11 @@
 
 			<!-- Google Map Container -->
 
-			<div class="row">
-				<div class="col">
-					<div id="google_map">
-						<div class="map_container">
-							<div id="map"></div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<div id="map" style="width:90%;height:500px;margin-left:5%;"></div> <br>
 
-		</div>
-	</div>
-
-	<!-- Contact -->
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBisf-jOkHF3EObkyyQh4NukvZrEmaJCt0&callback=myMap"></script>
+     
+<!-- Contact -->
 
 	<div class="contact prlx_parent">
 		<div class="contact_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
@@ -232,6 +229,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/maps.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
 <script src="plugins/greensock/TweenMax.min.js"></script>
 <script src="plugins/greensock/TimelineMax.min.js"></script>
@@ -240,7 +238,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
 <script src="plugins/progressbar/progressbar.min.js"></script>
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="js/contact_custom.js"></script>
 </body>
