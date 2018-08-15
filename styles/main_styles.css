@@ -712,16 +712,19 @@ section
 	width: 610px;
 	height: 100%;
 	margin-top: 240px;
+     
 }
 .main_slider_content h1
 {
 	font-weight: 300;
 	line-height: 1.15;
 	color: #FFFFFF;
+   
 }
 .main_slider_content h1 span
 {
 	font-family: 'Myriad Pro Regular', sans-serif;
+
 }
 .main_slider_content p
 {
@@ -730,6 +733,7 @@ section
 	color: #FFFFFF;
 	padding-left: 5px;
 	margin-top: 1px;
+
 }
 .discover_button
 {
