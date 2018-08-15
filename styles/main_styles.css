@@ -879,6 +879,8 @@ section
 {
 	padding-top: 195px;
 	padding-bottom: 175px;
+      text-align: center;
+     
 }
 .about_background
 {
@@ -942,12 +944,16 @@ section
 }
 .about_text
 {
-	padding-right: 50px;
+	
+     text-align: center;
+     padding-right: 50px;
 }
 .about_text p
-{
+{     
 	color: #FFFFFF;
 	margin-bottom: 0px;
+     text-align: center;
+    
 }
 .about_text img
 {
