@@ -8,11 +8,17 @@
     transform: rotateY(180deg);
   }
 
-.flip-container, .front, .back {
+.flip-container, .front {
   height: 480px;
   border: 1px solid black;
   border-radius: 10px;
 }
+.flip-container, .back {
+  height: 480px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
 .flip-container {
   width: 30%;
   margin-left: 1%;
@@ -145,4 +151,4 @@
   .mobile-tile {
     margin-bottom: 15px;
   }
-  </style>
+  </style>

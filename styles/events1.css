@@ -59,7 +59,7 @@
   border-radius: 10px;
 }
 flip-container, .back {
-  height: 700px;
+  height: 480px;
   width: 1000px;
   border: 1px solid black;
   border-radius: 10px;
@@ -215,3 +215,11 @@ flip-container, .back {
   .mobile-tile {
     margin-bottom: 15px;
   }
+
+
+
+.desc
+{
+	text-align: center;
+	font-size: 1vw;
+}
